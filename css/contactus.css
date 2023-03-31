@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body
+{
+background-color: #f0f0f9 !important;
+}
+
+.top-s{
+  padding-top: 30px !important;
+}
+
+.left-s{
+  padding-left: 30px;
+}
+
+.font-s{
+  color: #000 !important;
+  font-weight: 100;
+} 
+
+#map {height: 450px;width: 100%;
+  background-color:#d1c5c8;}
+
+.h2c{
+  color: rgb(62,32,147);
+  font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.btn-round{
+  border-color: rgb(62,32,147);
+  border-radius: 20px;
+}
+
+.containerc .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerc .content .center{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .center::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .center .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .center .details i{
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.content .center .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .center .details .text-one,
+.content .center .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
